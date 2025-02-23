@@ -3,6 +3,7 @@ import Front from './components/Front'
 import './App.css'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -12,8 +13,10 @@ function App() {
     <>
     <Navbar/>
     <Front/>
-    <Projects/>
     <Skills/>
+    <Projects/>
+    <Footer/>
+    
     </>
   )
 }
